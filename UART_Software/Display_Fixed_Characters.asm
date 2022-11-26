@@ -13,7 +13,7 @@
 ;** Konfiguracijsi biti                               **
 ;*******************************************************
 
-	__CONFIG  _MCLRE_ON & _FCMEN_OFF & _BOR_OFF & _WDT_ON & _INTRC_OSC_NOCLKOUT & _CP_OFF & _CPD_OFF
+	__CONFIG  _MCLRE_ON & _FCMEN_OFF & _BOR_OFF & _WDT_OFF & _INTRC_OSC_NOCLKOUT & _CP_OFF & _CPD_OFF
 
 ;*******************************************************
 ;**  Spremenljivke                                    **
@@ -395,7 +395,7 @@ ASCII_LO
 	retlw 0xFD
 	; 0
 	retlw 0xC1
-	retlw 0xBe
+	retlw 0xBE
 	retlw 0xBE
 	retlw 0xBE
 	retlw 0xC1
