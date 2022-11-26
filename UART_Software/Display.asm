@@ -13,13 +13,6 @@
 ;** Konfiguracijsi biti                               **
 ;*******************************************************
 
-// MCLRE = MCLR Pin Function Select bit
-// FCMEN = Fail-Safe Clock Monitor Enable bit
-// BOR = Brown-out Reset Selection bits
-// WDT = Watchdog Timer Enable bit
-// CP = Code Protection bit
-// CPD = Data Code Protection bit
-
 	__CONFIG  _MCLRE_ON & _FCMEN_OFF & _BOR_OFF & _WDT_ON & _INTRC_OSC_NOCLKOUT & _CP_OFF & _CPD_OFF
 
 ;*******************************************************
